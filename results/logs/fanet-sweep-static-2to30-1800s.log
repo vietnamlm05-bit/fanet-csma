@@ -1,0 +1,2117 @@
+RUN static nNodes=2 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 2 total = 1 gateway + 1 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..1, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 1               
+  Max offered load                   : 0.409600        Mbps
+
+-- Performance --
+  Throughput                         : 0.000000        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 0.000000        %
+  Packet loss                        : 100.000000      %
+  Average delay                      : 0.000000        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 100.000000      %
+
+-- Staggered Launch Milestones --
+  300s / 1 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 0.410 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  600s / 1 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 0.410 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  900s / 1 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 0.410 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1200s / 1 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 0.410 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1500s / 1 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 0.410 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1800s / 1 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 0.410 Mbps, Delay 0.00 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 1               
+  Tx packets                         : 179800          
+  Rx packets                         : 0               
+  Rx bytes                           : 0               
+  Rx payload bytes                   : 0               
+  Lost packets                       : 179800          
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n2-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=3 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 3 total = 1 gateway + 2 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..2, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 2               
+  Max offered load                   : 0.819200        Mbps
+
+-- Performance --
+  Throughput                         : 0.000000        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 0.000000        %
+  Packet loss                        : 100.000000      %
+  Average delay                      : 0.000000        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 100.000000      %
+
+-- Staggered Launch Milestones --
+  300s / 2 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 0.819 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  600s / 2 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 0.819 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  900s / 2 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 0.819 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1200s / 2 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 0.819 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1500s / 2 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 0.819 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1800s / 2 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 0.819 Mbps, Delay 0.00 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 2               
+  Tx packets                         : 359600          
+  Rx packets                         : 0               
+  Rx bytes                           : 0               
+  Rx payload bytes                   : 0               
+  Lost packets                       : 359600          
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n3-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=4 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 4 total = 1 gateway + 3 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..3, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 3               
+  Max offered load                   : 1.228800        Mbps
+
+-- Performance --
+  Throughput                         : 0.000000        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 0.000000        %
+  Packet loss                        : 100.000000      %
+  Average delay                      : 0.000000        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 66.666667       %
+
+-- Staggered Launch Milestones --
+  300s / 3 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 1.229 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  600s / 3 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 1.229 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  900s / 3 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 1.229 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1200s / 3 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 1.229 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1500s / 3 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 1.229 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1800s / 3 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 1.229 Mbps, Delay 0.00 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 3               
+  Tx packets                         : 539400          
+  Rx packets                         : 0               
+  Rx bytes                           : 0               
+  Rx payload bytes                   : 0               
+  Lost packets                       : 539400          
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n4-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=5 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 5 total = 1 gateway + 4 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..4, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 4               
+  Max offered load                   : 1.638400        Mbps
+
+-- Performance --
+  Throughput                         : 0.000000        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 0.000000        %
+  Packet loss                        : 100.000000      %
+  Average delay                      : 0.000000        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 75.000000       %
+
+-- Staggered Launch Milestones --
+  300s / 4 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 1.638 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  600s / 4 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 1.638 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  900s / 4 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 1.638 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1200s / 4 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 1.638 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1500s / 4 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 1.638 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1800s / 4 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 1.638 Mbps, Delay 0.00 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 4               
+  Tx packets                         : 719200          
+  Rx packets                         : 0               
+  Rx bytes                           : 0               
+  Rx payload bytes                   : 0               
+  Lost packets                       : 719200          
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n5-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=6 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 6 total = 1 gateway + 5 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..5, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 5               
+  Max offered load                   : 2.048000        Mbps
+
+-- Performance --
+  Throughput                         : 0.409145        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 20.000000       %
+  Packet loss                        : 80.000000       %
+  Average delay                      : 0.464669        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 40.000000       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 20.00%, Thr 0.410 Mbps, Load 2.048 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  600s / 5 active clients            : PDR 20.00%, Thr 0.410 Mbps, Load 2.048 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  900s / 5 active clients            : PDR 20.00%, Thr 0.410 Mbps, Load 2.048 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1200s / 5 active clients           : PDR 20.00%, Thr 0.410 Mbps, Load 2.048 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1500s / 5 active clients           : PDR 20.00%, Thr 0.410 Mbps, Load 2.048 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1800s / 5 active clients           : PDR 20.00%, Thr 0.410 Mbps, Load 2.048 Mbps, Delay 0.46 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 5               
+  Tx packets                         : 899000          
+  Rx packets                         : 179800          
+  Rx bytes                           : 97092000        
+  Rx payload bytes                   : 92057600        
+  Lost packets                       : 719200          
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n6-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=7 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 7 total = 1 gateway + 6 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..6, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 6               
+  Max offered load                   : 2.457600        Mbps
+
+-- Performance --
+  Throughput                         : 0.409145        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 17.143402       %
+  Packet loss                        : 82.856598       %
+  Average delay                      : 0.464930        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 48.569794       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 20.00%, Thr 0.410 Mbps, Load 2.048 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  600s / 6 active clients            : PDR 16.69%, Thr 0.410 Mbps, Load 2.458 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  900s / 6 active clients            : PDR 16.67%, Thr 0.410 Mbps, Load 2.458 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1200s / 6 active clients           : PDR 16.67%, Thr 0.410 Mbps, Load 2.458 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1500s / 6 active clients           : PDR 16.67%, Thr 0.410 Mbps, Load 2.458 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  1800s / 6 active clients           : PDR 16.67%, Thr 0.410 Mbps, Load 2.458 Mbps, Delay 0.46 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 6               
+  Tx packets                         : 1048800         
+  Rx packets                         : 179800          
+  Rx bytes                           : 97092000        
+  Rx payload bytes                   : 92057600        
+  Lost packets                       : 869000          
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n7-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=8 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 8 total = 1 gateway + 7 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..7, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 7               
+  Max offered load                   : 2.867200        Mbps
+
+-- Performance --
+  Throughput                         : 0.409145        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 15.000834       %
+  Packet loss                        : 84.999166       %
+  Average delay                      : 0.464630        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 69.998331       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 20.00%, Thr 0.410 Mbps, Load 2.048 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  600s / 7 active clients            : PDR 14.31%, Thr 0.410 Mbps, Load 2.867 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  900s / 7 active clients            : PDR 14.29%, Thr 0.410 Mbps, Load 2.867 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1200s / 7 active clients           : PDR 14.29%, Thr 0.410 Mbps, Load 2.867 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1500s / 7 active clients           : PDR 14.29%, Thr 0.410 Mbps, Load 2.867 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1800s / 7 active clients           : PDR 14.29%, Thr 0.410 Mbps, Load 2.867 Mbps, Delay 0.46 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 7               
+  Tx packets                         : 1198600         
+  Rx packets                         : 179800          
+  Rx bytes                           : 97092000        
+  Rx payload bytes                   : 92057600        
+  Lost packets                       : 1018800         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n8-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=9 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 9 total = 1 gateway + 8 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..8, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 8               
+  Max offered load                   : 3.276800        Mbps
+
+-- Performance --
+  Throughput                         : 0.000000        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 0.000000        %
+  Packet loss                        : 100.000000      %
+  Average delay                      : 0.000000        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 75.556215       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 2.048 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  600s / 8 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 3.277 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  900s / 8 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 3.277 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1200s / 8 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 3.277 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1500s / 8 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 3.277 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1800s / 8 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 3.277 Mbps, Delay 0.00 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 8               
+  Tx packets                         : 1348400         
+  Rx packets                         : 0               
+  Rx bytes                           : 0               
+  Rx payload bytes                   : 0               
+  Lost packets                       : 1348400         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n9-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=10 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 10 total = 1 gateway + 9 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..9, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 9               
+  Max offered load                   : 3.686400        Mbps
+
+-- Performance --
+  Throughput                         : 0.409145        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 12.001068       %
+  Packet loss                        : 87.998932       %
+  Average delay                      : 0.464361        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 87.998932       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 20.00%, Thr 0.410 Mbps, Load 2.048 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  600s / 9 active clients            : PDR 11.14%, Thr 0.410 Mbps, Load 3.686 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  900s / 9 active clients            : PDR 11.11%, Thr 0.410 Mbps, Load 3.686 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1200s / 9 active clients           : PDR 11.11%, Thr 0.410 Mbps, Load 3.686 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1500s / 9 active clients           : PDR 11.11%, Thr 0.410 Mbps, Load 3.686 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1800s / 9 active clients           : PDR 11.11%, Thr 0.410 Mbps, Load 3.686 Mbps, Delay 0.46 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 9               
+  Tx packets                         : 1498200         
+  Rx packets                         : 179800          
+  Rx bytes                           : 97092000        
+  Rx payload bytes                   : 92057600        
+  Lost packets                       : 1318400         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n10-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=11 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 11 total = 1 gateway + 10 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..10, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 10              
+  Max offered load                   : 4.096000        Mbps
+
+-- Performance --
+  Throughput                         : 0.000000        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 0.000000        %
+  Packet loss                        : 100.000000      %
+  Average delay                      : 0.000000        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 78.179612       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 2.048 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  600s / 10 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 4.096 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  900s / 10 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 4.096 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1200s / 10 active clients          : PDR 0.00%, Thr 0.000 Mbps, Load 4.096 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1500s / 10 active clients          : PDR 0.00%, Thr 0.000 Mbps, Load 4.096 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1800s / 10 active clients          : PDR 0.00%, Thr 0.000 Mbps, Load 4.096 Mbps, Delay 0.00 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 10              
+  Tx packets                         : 1648000         
+  Rx packets                         : 0               
+  Rx bytes                           : 0               
+  Rx payload bytes                   : 0               
+  Lost packets                       : 1648000         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n11-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=12 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 12 total = 1 gateway + 11 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..11, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 11              
+  Max offered load                   : 4.505600        Mbps
+
+-- Performance --
+  Throughput                         : 0.000000        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 0.000000        %
+  Packet loss                        : 100.000000      %
+  Average delay                      : 0.000000        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 79.658332       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 2.048 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  600s / 10 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 4.096 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  900s / 11 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 4.506 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1200s / 11 active clients          : PDR 0.00%, Thr 0.000 Mbps, Load 4.506 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1500s / 11 active clients          : PDR 0.00%, Thr 0.000 Mbps, Load 4.506 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1800s / 11 active clients          : PDR 0.00%, Thr 0.000 Mbps, Load 4.506 Mbps, Delay 0.00 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 11              
+  Tx packets                         : 1767800         
+  Rx packets                         : 0               
+  Rx bytes                           : 0               
+  Rx payload bytes                   : 0               
+  Lost packets                       : 1767800         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n12-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=13 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 13 total = 1 gateway + 12 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..12, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 12              
+  Max offered load                   : 4.915200        Mbps
+
+-- Performance --
+  Throughput                         : 0.726030        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 16.902734       %
+  Packet loss                        : 83.097266       %
+  Average delay                      : 3.417823        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 82.538673       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 20.00%, Thr 0.410 Mbps, Load 2.048 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  600s / 10 active clients           : PDR 19.99%, Thr 0.816 Mbps, Load 4.096 Mbps, Delay 3.83 ms, Tear 0.0000/s
+  900s / 12 active clients           : PDR 16.68%, Thr 0.819 Mbps, Load 4.915 Mbps, Delay 3.84 ms, Tear 0.0000/s
+  1200s / 12 active clients          : PDR 13.77%, Thr 0.677 Mbps, Load 4.915 Mbps, Delay 3.12 ms, Tear 0.0000/s
+  1500s / 12 active clients          : PDR 16.66%, Thr 0.819 Mbps, Load 4.915 Mbps, Delay 3.85 ms, Tear 0.0000/s
+  1800s / 12 active clients          : PDR 16.66%, Thr 0.819 Mbps, Load 4.915 Mbps, Delay 3.87 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 12              
+  Tx packets                         : 1887600         
+  Rx packets                         : 319056          
+  Rx bytes                           : 172290240       
+  Rx payload bytes                   : 163356672       
+  Lost packets                       : 1568544         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n13-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=14 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 14 total = 1 gateway + 13 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..13, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 13              
+  Max offered load                   : 5.324800        Mbps
+
+-- Performance --
+  Throughput                         : 0.000000        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 0.000000        %
+  Packet loss                        : 100.000000      %
+  Average delay                      : 0.000000        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 91.043140       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 2.048 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  600s / 10 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 4.096 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  900s / 13 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 5.325 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1200s / 13 active clients          : PDR 0.00%, Thr 0.000 Mbps, Load 5.325 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1500s / 13 active clients          : PDR 0.00%, Thr 0.000 Mbps, Load 5.325 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1800s / 13 active clients          : PDR 0.00%, Thr 0.000 Mbps, Load 5.325 Mbps, Delay 0.00 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 13              
+  Tx packets                         : 2007400         
+  Rx packets                         : 0               
+  Rx bytes                           : 0               
+  Rx payload bytes                   : 0               
+  Lost packets                       : 2007400         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n14-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=15 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 15 total = 1 gateway + 14 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..14, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 14              
+  Max offered load                   : 5.734400        Mbps
+
+-- Performance --
+  Throughput                         : 0.000000        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 0.000000        %
+  Packet loss                        : 100.000000      %
+  Average delay                      : 0.000000        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 85.915758       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 2.048 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  600s / 10 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 4.096 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  900s / 14 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 5.734 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1200s / 14 active clients          : PDR 0.00%, Thr 0.000 Mbps, Load 5.734 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1500s / 14 active clients          : PDR 0.00%, Thr 0.000 Mbps, Load 5.734 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1800s / 14 active clients          : PDR 0.00%, Thr 0.000 Mbps, Load 5.734 Mbps, Delay 0.00 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 14              
+  Tx packets                         : 2127200         
+  Rx packets                         : 0               
+  Rx bytes                           : 0               
+  Rx payload bytes                   : 0               
+  Lost packets                       : 2127200         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n15-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=16 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 16 total = 1 gateway + 15 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..15, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 15              
+  Max offered load                   : 6.144000        Mbps
+
+-- Performance --
+  Throughput                         : 1.261750        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 24.676457       %
+  Packet loss                        : 75.323543       %
+  Average delay                      : 2.919878        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 53.333333       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 20.00%, Thr 0.410 Mbps, Load 2.048 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  600s / 10 active clients           : PDR 26.48%, Thr 1.081 Mbps, Load 4.096 Mbps, Delay 2.72 ms, Tear 0.0000/s
+  900s / 15 active clients           : PDR 26.66%, Thr 1.634 Mbps, Load 6.144 Mbps, Delay 3.27 ms, Tear 0.0000/s
+  1200s / 15 active clients          : PDR 25.36%, Thr 1.558 Mbps, Load 6.144 Mbps, Delay 3.12 ms, Tear 0.0000/s
+  1500s / 15 active clients          : PDR 25.62%, Thr 1.574 Mbps, Load 6.144 Mbps, Delay 3.15 ms, Tear 0.0000/s
+  1800s / 15 active clients          : PDR 21.42%, Thr 1.316 Mbps, Load 6.144 Mbps, Delay 2.89 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 15              
+  Tx packets                         : 2247000         
+  Rx packets                         : 554480          
+  Rx bytes                           : 299419200       
+  Rx payload bytes                   : 283893760       
+  Lost packets                       : 1692520         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n16-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=17 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 17 total = 1 gateway + 16 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..16, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 16              
+  Max offered load                   : 6.553600        Mbps
+
+-- Performance --
+  Throughput                         : 0.340878        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 6.410476        %
+  Packet loss                        : 93.589524       %
+  Average delay                      : 0.465128        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 80.768572       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 2.048 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  600s / 10 active clients           : PDR 9.97%, Thr 0.407 Mbps, Load 4.096 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  900s / 15 active clients           : PDR 6.68%, Thr 0.410 Mbps, Load 6.144 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  1200s / 16 active clients          : PDR 6.25%, Thr 0.410 Mbps, Load 6.554 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  1500s / 16 active clients          : PDR 6.25%, Thr 0.410 Mbps, Load 6.554 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  1800s / 16 active clients          : PDR 6.25%, Thr 0.410 Mbps, Load 6.554 Mbps, Delay 0.47 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 16              
+  Tx packets                         : 2336800         
+  Rx packets                         : 149800          
+  Rx bytes                           : 80892000        
+  Rx payload bytes                   : 76697600        
+  Lost packets                       : 2187000         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n17-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=18 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 18 total = 1 gateway + 17 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..17, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 17              
+  Max offered load                   : 6.963200        Mbps
+
+-- Performance --
+  Throughput                         : 0.784122        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 14.200321       %
+  Packet loss                        : 85.799679       %
+  Average delay                      : 2.110771        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 76.543312       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 2.048 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  600s / 10 active clients           : PDR 9.97%, Thr 0.407 Mbps, Load 4.096 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  900s / 15 active clients           : PDR 19.94%, Thr 1.223 Mbps, Load 6.144 Mbps, Delay 2.79 ms, Tear 0.0000/s
+  1200s / 17 active clients          : PDR 16.50%, Thr 1.148 Mbps, Load 6.963 Mbps, Delay 2.58 ms, Tear 0.0000/s
+  1500s / 17 active clients          : PDR 14.70%, Thr 1.023 Mbps, Load 6.963 Mbps, Delay 2.04 ms, Tear 0.0000/s
+  1800s / 17 active clients          : PDR 12.98%, Thr 0.904 Mbps, Load 6.963 Mbps, Delay 1.41 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 17              
+  Tx packets                         : 2426600         
+  Rx packets                         : 344585          
+  Rx bytes                           : 186075900       
+  Rx payload bytes                   : 176427520       
+  Lost packets                       : 2082015         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n18-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=19 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 19 total = 1 gateway + 18 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..18, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 18              
+  Max offered load                   : 7.372800        Mbps
+
+-- Performance --
+  Throughput                         : 0.272612        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 4.760769        %
+  Packet loss                        : 95.239231       %
+  Average delay                      : 0.464702        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 75.003974       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 2.048 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  600s / 10 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 4.096 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  900s / 15 active clients           : PDR 6.64%, Thr 0.407 Mbps, Load 6.144 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1200s / 18 active clients          : PDR 5.56%, Thr 0.410 Mbps, Load 7.373 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1500s / 18 active clients          : PDR 5.56%, Thr 0.410 Mbps, Load 7.373 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1800s / 18 active clients          : PDR 5.56%, Thr 0.410 Mbps, Load 7.373 Mbps, Delay 0.46 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 18              
+  Tx packets                         : 2516400         
+  Rx packets                         : 119800          
+  Rx bytes                           : 64692000        
+  Rx payload bytes                   : 61337600        
+  Lost packets                       : 2396600         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n19-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=20 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 20 total = 1 gateway + 19 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..19, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 19              
+  Max offered load                   : 7.782400        Mbps
+
+-- Performance --
+  Throughput                         : 0.409145        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 6.898933        %
+  Packet loss                        : 93.101067       %
+  Average delay                      : 0.465500        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 59.765175       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 20.00%, Thr 0.410 Mbps, Load 2.048 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  600s / 10 active clients           : PDR 10.03%, Thr 0.410 Mbps, Load 4.096 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  900s / 15 active clients           : PDR 6.68%, Thr 0.410 Mbps, Load 6.144 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  1200s / 19 active clients          : PDR 5.27%, Thr 0.410 Mbps, Load 7.782 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  1500s / 19 active clients          : PDR 5.26%, Thr 0.410 Mbps, Load 7.782 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  1800s / 19 active clients          : PDR 5.26%, Thr 0.410 Mbps, Load 7.782 Mbps, Delay 0.47 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 19              
+  Tx packets                         : 2606200         
+  Rx packets                         : 179800          
+  Rx bytes                           : 97092000        
+  Rx payload bytes                   : 92057600        
+  Lost packets                       : 2426400         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n20-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=21 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 21 total = 1 gateway + 20 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..20, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 20              
+  Max offered load                   : 8.192000        Mbps
+
+-- Performance --
+  Throughput                         : 0.340878        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 5.556380        %
+  Packet loss                        : 94.443620       %
+  Average delay                      : 0.464896        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 80.000000       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 2.048 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  600s / 10 active clients           : PDR 9.97%, Thr 0.407 Mbps, Load 4.096 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  900s / 15 active clients           : PDR 6.68%, Thr 0.410 Mbps, Load 6.144 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1200s / 20 active clients          : PDR 5.01%, Thr 0.410 Mbps, Load 8.192 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1500s / 20 active clients          : PDR 5.00%, Thr 0.410 Mbps, Load 8.192 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  1800s / 20 active clients          : PDR 5.00%, Thr 0.410 Mbps, Load 8.192 Mbps, Delay 0.47 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 20              
+  Tx packets                         : 2696000         
+  Rx packets                         : 149800          
+  Rx bytes                           : 80892000        
+  Rx payload bytes                   : 76697600        
+  Lost packets                       : 2546200         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n21-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=22 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 22 total = 1 gateway + 21 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..21, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 21              
+  Max offered load                   : 8.601600        Mbps
+
+-- Performance --
+  Throughput                         : 0.272612        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 4.347195        %
+  Packet loss                        : 95.652805       %
+  Average delay                      : 0.464473        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 90.216997       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 2.048 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  600s / 10 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 4.096 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  900s / 15 active clients           : PDR 6.64%, Thr 0.407 Mbps, Load 6.144 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1200s / 20 active clients          : PDR 5.01%, Thr 0.410 Mbps, Load 8.192 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1500s / 21 active clients          : PDR 4.76%, Thr 0.410 Mbps, Load 8.602 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1800s / 21 active clients          : PDR 4.76%, Thr 0.410 Mbps, Load 8.602 Mbps, Delay 0.46 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 21              
+  Tx packets                         : 2755800         
+  Rx packets                         : 119800          
+  Rx bytes                           : 64692000        
+  Rx payload bytes                   : 61337600        
+  Lost packets                       : 2636000         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n22-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=23 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 23 total = 1 gateway + 22 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..22, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 22              
+  Max offered load                   : 9.011200        Mbps
+
+-- Performance --
+  Throughput                         : 0.272612        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 4.254866        %
+  Packet loss                        : 95.745134       %
+  Average delay                      : 0.464452        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 81.915045       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 2.048 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  600s / 10 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 4.096 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  900s / 15 active clients           : PDR 6.64%, Thr 0.407 Mbps, Load 6.144 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1200s / 20 active clients          : PDR 5.01%, Thr 0.410 Mbps, Load 8.192 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1500s / 22 active clients          : PDR 4.55%, Thr 0.410 Mbps, Load 9.011 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1800s / 22 active clients          : PDR 4.55%, Thr 0.410 Mbps, Load 9.011 Mbps, Delay 0.46 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 22              
+  Tx packets                         : 2815600         
+  Rx packets                         : 119800          
+  Rx bytes                           : 64692000        
+  Rx payload bytes                   : 61337600        
+  Lost packets                       : 2695800         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n23-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=24 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 24 total = 1 gateway + 23 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..23, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 23              
+  Max offered load                   : 9.420800        Mbps
+
+-- Performance --
+  Throughput                         : 0.677854        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 10.359776       %
+  Packet loss                        : 89.640224       %
+  Average delay                      : 3.731998        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 76.045072       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 2.048 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  600s / 10 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 4.096 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  900s / 15 active clients           : PDR 13.27%, Thr 0.814 Mbps, Load 6.144 Mbps, Delay 3.54 ms, Tear 0.0000/s
+  1200s / 20 active clients          : PDR 14.00%, Thr 1.145 Mbps, Load 8.192 Mbps, Delay 4.19 ms, Tear 0.0000/s
+  1500s / 23 active clients          : PDR 11.53%, Thr 1.086 Mbps, Load 9.421 Mbps, Delay 3.85 ms, Tear 0.0000/s
+  1800s / 23 active clients          : PDR 10.86%, Thr 1.023 Mbps, Load 9.421 Mbps, Delay 3.25 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 23              
+  Tx packets                         : 2875400         
+  Rx packets                         : 297885          
+  Rx bytes                           : 160857900       
+  Rx payload bytes                   : 152517120       
+  Lost packets                       : 2577515         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n24-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=25 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 25 total = 1 gateway + 24 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..24, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 24              
+  Max offered load                   : 9.830400        Mbps
+
+-- Performance --
+  Throughput                         : 0.000000        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 0.000000        %
+  Packet loss                        : 100.000000      %
+  Average delay                      : 0.000000        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 81.623058       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 2.048 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  600s / 10 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 4.096 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  900s / 15 active clients           : PDR 0.00%, Thr 0.000 Mbps, Load 6.144 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1200s / 20 active clients          : PDR 0.00%, Thr 0.000 Mbps, Load 8.192 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1500s / 24 active clients          : PDR 0.00%, Thr 0.000 Mbps, Load 9.830 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  1800s / 24 active clients          : PDR 0.00%, Thr 0.000 Mbps, Load 9.830 Mbps, Delay 0.00 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 24              
+  Tx packets                         : 2935200         
+  Rx packets                         : 0               
+  Rx bytes                           : 0               
+  Rx payload bytes                   : 0               
+  Lost packets                       : 2935200         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n25-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=26 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 26 total = 1 gateway + 25 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..25, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 25              
+  Max offered load                   : 10.240000       Mbps
+
+-- Performance --
+  Throughput                         : 0.521555        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 7.652721        %
+  Packet loss                        : 92.347279       %
+  Average delay                      : 0.749489        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 73.001669       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 2.048 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  600s / 10 active clients           : PDR 9.97%, Thr 0.407 Mbps, Load 4.096 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  900s / 15 active clients           : PDR 6.68%, Thr 0.410 Mbps, Load 6.144 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  1200s / 20 active clients          : PDR 9.02%, Thr 0.737 Mbps, Load 8.192 Mbps, Delay 0.83 ms, Tear 0.0000/s
+  1500s / 25 active clients          : PDR 7.40%, Thr 0.756 Mbps, Load 10.240 Mbps, Delay 0.84 ms, Tear 0.0000/s
+  1800s / 25 active clients          : PDR 8.00%, Thr 0.819 Mbps, Load 10.240 Mbps, Delay 0.88 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 25              
+  Tx packets                         : 2995000         
+  Rx packets                         : 229199          
+  Rx bytes                           : 123767460       
+  Rx payload bytes                   : 117349888       
+  Lost packets                       : 2765801         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n26-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=27 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 27 total = 1 gateway + 26 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..26, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 26              
+  Max offered load                   : 10.649600       Mbps
+
+-- Performance --
+  Throughput                         : 0.746812        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 10.849940       %
+  Packet loss                        : 89.150060       %
+  Average delay                      : 2.257792        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 62.371066       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 2.048 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  600s / 10 active clients           : PDR 9.97%, Thr 0.407 Mbps, Load 4.096 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  900s / 15 active clients           : PDR 11.00%, Thr 0.674 Mbps, Load 6.144 Mbps, Delay 0.79 ms, Tear 0.0000/s
+  1200s / 20 active clients          : PDR 11.52%, Thr 0.942 Mbps, Load 8.192 Mbps, Delay 2.13 ms, Tear 0.0000/s
+  1500s / 25 active clients          : PDR 12.02%, Thr 1.229 Mbps, Load 10.240 Mbps, Delay 3.00 ms, Tear 0.0000/s
+  1800s / 26 active clients          : PDR 11.54%, Thr 1.229 Mbps, Load 10.650 Mbps, Delay 3.01 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 26              
+  Tx packets                         : 3024800         
+  Rx packets                         : 328189          
+  Rx bytes                           : 177222060       
+  Rx payload bytes                   : 168032768       
+  Lost packets                       : 2696611         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n27-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=28 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 28 total = 1 gateway + 27 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..27, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 27              
+  Max offered load                   : 11.059200       Mbps
+
+-- Performance --
+  Throughput                         : 0.340878        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 4.904079        %
+  Packet loss                        : 95.095921       %
+  Average delay                      : 0.465555        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 76.461730       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 2.048 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  600s / 10 active clients           : PDR 9.97%, Thr 0.407 Mbps, Load 4.096 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  900s / 15 active clients           : PDR 6.68%, Thr 0.410 Mbps, Load 6.144 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  1200s / 20 active clients          : PDR 5.01%, Thr 0.410 Mbps, Load 8.192 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  1500s / 25 active clients          : PDR 4.01%, Thr 0.410 Mbps, Load 10.240 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  1800s / 27 active clients          : PDR 3.71%, Thr 0.410 Mbps, Load 11.059 Mbps, Delay 0.47 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 27              
+  Tx packets                         : 3054600         
+  Rx packets                         : 149800          
+  Rx bytes                           : 80892000        
+  Rx payload bytes                   : 76697600        
+  Lost packets                       : 2904800         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n28-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=29 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 29 total = 1 gateway + 28 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..28, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 28              
+  Max offered load                   : 11.468800       Mbps
+
+-- Performance --
+  Throughput                         : 0.340878        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 4.856698        %
+  Packet loss                        : 95.143302       %
+  Average delay                      : 0.465365        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 95.143302       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 2.048 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  600s / 10 active clients           : PDR 9.97%, Thr 0.407 Mbps, Load 4.096 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  900s / 15 active clients           : PDR 6.68%, Thr 0.410 Mbps, Load 6.144 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  1200s / 20 active clients          : PDR 5.01%, Thr 0.410 Mbps, Load 8.192 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  1500s / 25 active clients          : PDR 4.01%, Thr 0.410 Mbps, Load 10.240 Mbps, Delay 0.47 ms, Tear 0.0000/s
+  1800s / 28 active clients          : PDR 3.57%, Thr 0.410 Mbps, Load 11.469 Mbps, Delay 0.47 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 28              
+  Tx packets                         : 3084400         
+  Rx packets                         : 149800          
+  Rx bytes                           : 80892000        
+  Rx payload bytes                   : 76697600        
+  Lost packets                       : 2934600         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n29-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================
+RUN static nNodes=30 simTime=1800
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : static (static Lab 5 baseline)
+  Nodes                              : 30 total = 1 gateway + 29 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..29, UDP clients
+  Routing                            : one-hop UDP to gateway, no relay routing
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : static from t=0 
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 1800.00         s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 29              
+  Max offered load                   : 11.878400       Mbps
+
+-- Performance --
+  Throughput                         : 0.566151        Mbps
+  Throughput basis                   : application payload bytes / simTime
+  PDR                                : 7.989114        %
+  Packet loss                        : 92.010886       %
+  Average delay                      : 0.834631        ms
+  Gateway range exit events          : 0               
+  Link tearing rate                  : 0.000000        events/s
+  Link tearing basis                 : gateway exits / simTime
+  Out-of-range samples               : 71.157922       %
+
+-- Staggered Launch Milestones --
+  300s / 5 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 2.048 Mbps, Delay 0.00 ms, Tear 0.0000/s
+  600s / 10 active clients           : PDR 9.97%, Thr 0.407 Mbps, Load 4.096 Mbps, Delay 0.46 ms, Tear 0.0000/s
+  900s / 15 active clients           : PDR 11.00%, Thr 0.674 Mbps, Load 6.144 Mbps, Delay 0.83 ms, Tear 0.0000/s
+  1200s / 20 active clients          : PDR 10.02%, Thr 0.819 Mbps, Load 8.192 Mbps, Delay 0.93 ms, Tear 0.0000/s
+  1500s / 25 active clients          : PDR 8.01%, Thr 0.819 Mbps, Load 10.240 Mbps, Delay 0.93 ms, Tear 0.0000/s
+  1800s / 29 active clients          : PDR 5.71%, Thr 0.677 Mbps, Load 11.878 Mbps, Delay 0.83 ms, Tear 0.0000/s
+
+-- Raw counters --
+  Measured flows                     : 29              
+  Tx packets                         : 3114200         
+  Rx packets                         : 248797          
+  Rx bytes                           : 134350380       
+  Rx payload bytes                   : 127384064       
+  Lost packets                       : 2865403         
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-sweep-static-2to30-1800s-summary.csv
+  Milestone CSV                      : results/csv/fanet-sweep-static-2to30-1800s-milestones.csv
+  FlowMonitor XML                    : results/flowmon/sweep-static/fanet-csma-n30-static-1800s.flowmon.xml
+  PCAP prefix                        : disabled        
+  NetAnim XML                        : disabled        
+============================================================

@@ -1,0 +1,2 @@
+mode,nNodes,clients,rtsCtsThreshold,packetSize,packetRate,simTime,offeredLoadMbps,measuredFlows,txPackets,rxPackets,lostPackets,pdrPercent,lossRatePercent,throughputMbps,avgDelayMs,gatewayRangeExitEvents,linkTearingRatePerSecond,outOfRangeSamplePercent
+mobile,2,1,2346,1024,100,3,0.8192,1,200,0,200,0,100,0,0,0,0,100

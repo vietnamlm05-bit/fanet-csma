@@ -1,0 +1,124 @@
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : mobile (FANET RandomWaypoint)
+  Nodes                              : 2 total = 1 gateway + 1 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..1, UDP clients
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : t=0 for all drones
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 300.00          s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 1               
+  Max offered load                   : 0.409600        Mbps
+
+-- Performance --
+  Throughput                         : 0.000000        Mbps
+  Throughput basis                   : FlowMonitor rxBytes / simTime
+  PDR                                : 0.000000        %
+  Packet loss                        : 100.000000      %
+  Average delay                      : 0.000000        ms
+  Gateway range exit events          : 5               
+  Link tearing rate                  : 0.016779        events/s
+  Out-of-range samples               : 48.825503       %
+
+-- Staggered Launch Milestones --
+  300s / 1 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 0.410 Mbps, Delay 0.00 ms, Tear 0.0168/s
+
+-- Raw counters --
+  Measured flows                     : 1               
+  Tx packets                         : 29800           
+  Rx packets                         : 0               
+  Rx bytes                           : 0               
+  Lost packets                       : 29800           
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-rng-2to2-300s-raw-summary-smoke-milestone.csv
+  Milestone CSV                      : results/csv/fanet-rng-2to2-300s-raw-milestones-smoke-milestone.csv
+  FlowMonitor XML                    : disabled        
+============================================================
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+============================================================
+ FANET CSMA/CA WIFI AD-HOC - LAB 5 RESULT
+============================================================
+
+-- Scenario --
+  Mode                               : mobile (FANET RandomWaypoint)
+  Nodes                              : 2 total = 1 gateway + 1 clients
+  Gateway                            : Node 0, UDP server
+  Client nodes                       : Node 1..1, UDP clients
+  Map size                           : 500 x 500       m
+  Gateway position                   : (250.0, 250.0, 0.0)
+  Mobility start                     : t=0 for all drones
+
+-- WiFi and CSMA/CA --
+  WiFi standard                      : 802.11g ad-hoc  
+  Data mode                          : ErpOfdmRate12Mbps
+  Control mode                       : ErpOfdmRate6Mbps
+  RTS/CTS threshold                  : 2346            bytes
+  RTS/CTS status                     : disabled for payload
+  Path loss exponent                 : 3.00            
+
+-- Traffic --
+  Packet size                        : 512             bytes
+  Packet rate per client             : 100.00          pkt/s
+  Simulation time                    : 300.00          s
+  Server start                       : 1.00            s
+  First client start                 : 2.00            s
+  Launch model                       : staggered launch
+  Launch scope                       : traffic + range accounting
+  Drones per wave                    : 5               
+  Launch interval                    : 300.00          s
+  Active clients at stop             : 1               
+  Max offered load                   : 0.409600        Mbps
+
+-- Performance --
+  Throughput                         : 0.000000        Mbps
+  Throughput basis                   : FlowMonitor rxBytes / simTime
+  PDR                                : 0.000000        %
+  Packet loss                        : 100.000000      %
+  Average delay                      : 0.000000        ms
+  Gateway range exit events          : 3               
+  Link tearing rate                  : 0.010067        events/s
+  Out-of-range samples               : 56.543624       %
+
+-- Staggered Launch Milestones --
+  300s / 1 active clients            : PDR 0.00%, Thr 0.000 Mbps, Load 0.410 Mbps, Delay 0.00 ms, Tear 0.0101/s
+
+-- Raw counters --
+  Measured flows                     : 1               
+  Tx packets                         : 29800           
+  Rx packets                         : 0               
+  Rx bytes                           : 0               
+  Lost packets                       : 29800           
+
+-- Output files --
+  CSV summary                        : results/csv/fanet-rng-2to2-300s-raw-summary-smoke-milestone.csv
+  Milestone CSV                      : results/csv/fanet-rng-2to2-300s-raw-milestones-smoke-milestone.csv
+  FlowMonitor XML                    : disabled        
+============================================================

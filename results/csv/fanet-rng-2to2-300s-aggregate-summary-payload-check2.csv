@@ -1,0 +1,2 @@
+mode,nNodes,runs,clients,rtsCtsThreshold,packetSize,packetRate,simTime,serverStart,clientStart,offeredLoadMbps,pdrMean,pdrStd,lossRateMean,lossRateStd,throughputMeanMbps,throughputStdMbps,avgDelayMeanMs,avgDelayStdMs,linkTearingMeanPerSecond,linkTearingStdPerSecond,outOfRangeMeanPercent,outOfRangeStdPercent,rxPacketsMean,rxBytesMean,rxPayloadBytesMean,lostPacketsMean
+mobile,2,2,1,2346,512,100,300,1,2,0.4096,0.000000,0.000000,100.000000,0.000000,0.000000000,0.000000000,0.000000,0.000000,0.013333350,0.004714069,52.684550,5.457521,0.000,0.000,0.000,29800.000

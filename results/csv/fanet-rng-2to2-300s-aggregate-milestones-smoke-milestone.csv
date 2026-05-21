@@ -1,0 +1,2 @@
+mode,nNodes,intervalEnd,runs,activeClients,offeredLoadMbps,pdrMean,pdrStd,lossRateMean,lossRateStd,throughputMeanMbps,throughputStdMbps,avgDelayMeanMs,avgDelayStdMs,linkTearingMeanPerSecond,linkTearingStdPerSecond,outOfRangeMeanPercent,outOfRangeStdPercent
+mobile,2,300,2,1,0.4096,0.000000,0.000000,100.000000,0.000000,0.000000000,0.000000000,0.000000,0.000000,0.013422800,0.004745676,52.684550,5.457521

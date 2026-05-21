@@ -1,0 +1,1 @@
+mode,nNodes,intervalEnd,runs,activeClients,offeredLoadMbps,pdrMean,pdrStd,lossRateMean,lossRateStd,throughputMeanMbps,throughputStdMbps,avgDelayMeanMs,avgDelayStdMs,linkTearingMeanPerSecond,linkTearingStdPerSecond,outOfRangeMeanPercent,outOfRangeStdPercent

@@ -1,0 +1,11 @@
+# Chặn các thư mục sinh ra khi build ns3
+build/
+cmake-cache/
+.cmake/
+CMakeFiles/
+Makefile
+cmake_install.cmake
+CMakeCache.txt
+*.so
+*.gch
+*.o
