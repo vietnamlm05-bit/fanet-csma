@@ -16,7 +16,6 @@ Mạng giả lập gồm **1 Gateway tĩnh** ở giữa bản đồ 500×500 m v
 |---|---|
 | WiFi standard | 802.11g Ad-hoc |# Hướng Dẫn Sử Dụng FANET CSMA/CA Compact Simulation
 
-README này dùng cho bản source compact:
 
 ```text
 scratch/fanet-csma-simulation.cc
