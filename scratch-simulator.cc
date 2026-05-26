@@ -1,3 +1,4 @@
+
 /* -*- Mode:C++; c-file-style:"gnu"; indent-tabs-mode:nil; -*- */
 /*
  * fanet_csma_eval.cc
@@ -26,6 +27,7 @@
 #include "ns3/mobility-module.h"
 #include "ns3/applications-module.h"
 #include "ns3/flow-monitor-module.h"
+#include <iomanip>
 
 using namespace ns3;
 
@@ -39,11 +41,18 @@ main (int argc, char *argv[])
   // ===================================================================
   uint32_t nUavs = 4;      // Default: 4 UAVs (Total 5 nodes = 1 Sink + 4 UAV)
   bool enableRts = false;   // Default: RTS/CTS disabled
+  uint32_t rngSeed = RngSeedManager::GetSeed ();
+  uint64_t rngRun = RngSeedManager::GetRun ();
 
   CommandLine cmd (__FILE__);
   cmd.AddValue ("nUavs", "Number of UAV nodes (total nodes = 1 Sink + nUavs)", nUavs);
   cmd.AddValue ("enableRts", "Enable RTS/CTS (true/false)", enableRts);
+  cmd.AddValue ("RngSeed", "Global RNG seed", rngSeed);
+  cmd.AddValue ("RngRun", "Global RNG run/substream index", rngRun);
   cmd.Parse (argc, argv);
+
+  RngSeedManager::SetSeed (rngSeed);
+  RngSeedManager::SetRun (rngRun);
 
   uint32_t totalNodes = 1 + nUavs; // Node 0 = Sink, Node 1..N = UAVs
   double simTime = 50.0;           // Simulation time in seconds
