@@ -12,7 +12,7 @@
  * All performance degradation is strictly due to MAC-layer collisions
  * (hidden node problem & queue congestion). No physical-layer fading,
  * link outage, or multi-hop routing effects are involved.
- *
+ */
 
 
 #include "ns3/core-module.h"
