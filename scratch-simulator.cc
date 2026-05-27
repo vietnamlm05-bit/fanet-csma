@@ -1,7 +1,7 @@
 
 /* -*- Mode:C++; c-file-style:"gnu"; indent-tabs-mode:nil; -*- */
 /*
- * fanet_csma_eval.cc
+ * fanet-csma.cc
  *
  * FANET CSMA/CA Performance Evaluation (WITHOUT RTS/CTS)
  * -------------------------------------------------------
@@ -13,12 +13,7 @@
  * (hidden node problem & queue congestion). No physical-layer fading,
  * link outage, or multi-hop routing effects are involved.
  *
- * Usage:
- *   ./ns3 run "scratch-simulator --nUavs=4"
- *   ./ns3 run "scratch-simulator --nUavs=4 --enableRts=true"
- *   ./ns3 run "scratch-simulator --nUavs=9"
- *   ./ns3 run "scratch-simulator --nUavs=9 --enableRts=true"
- */
+
 
 #include "ns3/core-module.h"
 #include "ns3/network-module.h"
