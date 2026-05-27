@@ -147,7 +147,7 @@ main (int argc, char *argv[])
   uavMobility.SetMobilityModel (
       "ns3::RandomWalk2dMobilityModel",
       "Bounds", RectangleValue (Rectangle (0.0, 100.0, 0.0, 100.0)),
-      "Speed", StringValue ("ns3::UniformRandomVariable[Min=10.0|Max=20.0]"));
+      "Speed", StringValue ("ns3::UniformRandomVariable[Min=4.0|Max=7.0]"));
 
   uavMobility.Install (uavNodes);
 
